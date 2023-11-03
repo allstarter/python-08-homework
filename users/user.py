@@ -5,12 +5,22 @@ class User:
         self._password = password
         self._loggedin = False
 
+    @property
+    def username(self):
+        return self._username
+
     def login(self, password):
         if self._password == password:
             self._loggedin = True
         else:
             self._loggedin = False
         return self._loggedin
+    
+    def menu_options(self):
+        return {}
+    
+    def save_as_dict(self):
+        return {"self._username": {"password": self._password}}
 
     def logout(self):
         self._loggedin = False    

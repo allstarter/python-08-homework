@@ -1,5 +1,4 @@
-from mimetypes import init
-from user import User
+from .user import User
 
 class Employee(User):
     """Special class for bank employees that internal service operations"""
@@ -17,5 +16,3 @@ class Employee(User):
             "6": "Log off"
         }
         return dict
-    
-

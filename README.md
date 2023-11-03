@@ -1,7 +1,10 @@
-Former Bank Application code:
-...
+Homework #8 of Python starter training
+=========
 
-Homework:
+### Former Bank Application code:
+https://github.com/allstarter/python-06-homework
+
+### Homework:
 Continue the bank application based on requirements:
 
 * class for User that are handling the login
